@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: voltarAEnabled ? () {
                 setState(() {
-                  timeAScore -= lastAScore;
+                  timeAScore    -= lastAScore;
                   voltarAEnabled = false;
                 });
               } : null,
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: voltarBEnabled ? () {
                 setState(() {
-                  timeBScore -= lastBScore;
+                  timeBScore    -= lastBScore;
                   voltarBEnabled = false;
                 });
               } : null,
@@ -121,8 +121,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: () {
                 setState(() {
-                  timeBScore += 1;
-                  lastBScore = 1;
+                  timeBScore    += 1;
+                  lastBScore     = 1;
                   voltarBEnabled = true;
                 });
               },
