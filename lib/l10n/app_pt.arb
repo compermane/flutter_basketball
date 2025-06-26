@@ -1,0 +1,8 @@
+{
+    "@@locale": "pt",
+    "title": "Flutter Basquete",
+    "free_throw": "Lance Livre",
+    "two_points": "2 Pontos",
+    "three_points": "3 Pontos",
+    "revert_points": "Reverter Pontos"
+}
